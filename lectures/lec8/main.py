@@ -22,23 +22,32 @@ while True:
   tsk = int(input('Select task:'))
   if tsk == 1:
      # 1-shi funct wakyru
+     continue
   elif tsk == 2:
      # 2-shi funct wakyru
+     continue
   elif tsk == 3:
      # 3-shi funct wakyru
+     continue
   elif tsk == 4:
      # 4-shi funct wakyru
+     continue
   elif tsk == 5:
      # 5-shi funct wakyru
+     continue
   elif tsk == 6:
      # 6-shi funct wakyru
+     continue
   elif tsk == 7:
      # 7-shi funct wakyru
+     continue
   elif tsk == 8:
      # 8-shi funct wakyru
+     continue
   else: 
      # programmadan shygu
-     exit()
+     break
    
 
 # Finish the program
+print('Thank you for using our program')

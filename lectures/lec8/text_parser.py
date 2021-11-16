@@ -23,7 +23,16 @@ def data_loader(filename):
 # - input:  list of lines
 # - output: dictionary of words and counts
 def get_word_counts(lines):
-    pass 
+    print('get_word_counts')
+    counts = dict()
+    for line in lines:
+        words = line.split()
+        for word in words:
+            if word not in counts:
+               counts[word] = 1
+            else:
+               counts[word] += 1 
+    return counts
 
 # Damir
 # 2. Get the number of words
@@ -87,4 +96,5 @@ if __name__ == "__main__":
    print("Testing module ...")
    
    content = data_loader('brown_short.txt')
+   print(get_word_counts(content))
    print(len(content))
