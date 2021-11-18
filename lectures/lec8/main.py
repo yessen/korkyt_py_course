@@ -13,28 +13,29 @@ print(fname)
 lines = tp.data_loader(fname)
 print(len(lines))
 
-# Parse file and create a dictionary
-dict1 = tp.get_word_counts(lines)
-print(len(dict1))
 
 # Infinite loop for queries
 while True:
-  tsk = int(input('Select task:'))
+  tsk = int(input('Select task: '))
   if tsk == 1:
-     # 1-shi funct wakyru
-     continue
+     # Parse file and create a dictionary
+     dict1 = tp.get_word_counts(lines)
+     print(len(dict1))
   elif tsk == 2:
      # 2-shi funct wakyru
-     continue
+     len_dict1 = tp.get_number_word(dict1)
+     print(len_dict1)
   elif tsk == 3:
      # 3-shi funct wakyru
      continue
   elif tsk == 4:
      # 4-shi funct wakyru
-     continue
+     average = tp.count_average(dict1)
+     print(average)
   elif tsk == 5:
      # 5-shi funct wakyru
-     continue
+     b = tp.get_count('What', dict1)
+     print(b)
   elif tsk == 6:
      # 6-shi funct wakyru
      continue
@@ -48,6 +49,5 @@ while True:
      # programmadan shygu
      break
    
-
 # Finish the program
 print('Thank you for using our program')

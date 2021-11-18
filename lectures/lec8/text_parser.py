@@ -23,7 +23,7 @@ def data_loader(filename):
 # - input:  list of lines
 # - output: dictionary of words and counts
 def get_word_counts(lines):
-    print('get_word_counts')
+    print('get_word_counts function')
     counts = dict()
     for line in lines:
         words = line.split()
@@ -39,22 +39,28 @@ def get_word_counts(lines):
 # - input:  dictionary of words and counts
 # - output: the number of words
 def get_number_word(dict1):
-    pass
+    print('get_number_word function')
+    lendict1 = len(dict1)
+    return lendict1 
 
-
-# Erkebulan
+# Erkebulan + Aibek K.
 # 3. Get the sum of counts of all words
 # - input:  mydict - dictionary of words and counts - { word: count }
 # - output: sum of all counts in dictionary
 def get_sum_counts(mydict):
-    pass
+    print('get_sum_counts function')
 
 # Aiya
 # 4. Get the average count of words
 # - input:  dictionary of words and counts
 # - output: average count of words
 def count_average(dict1):
-    pass
+    print('count_average function')
+    sum=0
+    for item in dict1:
+        sum+=dict1[item]
+    average=sum/(len(dict1))
+    return average
 
 # Sultan
 # 5. Get the word's count function
@@ -62,8 +68,10 @@ def count_average(dict1):
 #     - word to query
 #     - dictionary of words and counts
 # - output: word count
-def get_count(query, dict1):   
-    pass
+def get_count(word, dict1):   
+    print('get_count function')
+    b = word in dict1
+    return b 
  
 # Sunkar + Olzhas
 # 6. Check if a word is in the dictionary
@@ -80,7 +88,7 @@ def get_count(query, dict1):
 #     - dictionary of words and counts      
 # - output: message if the file is saved or not
 def save_dic_to_file(dic, filename):
-    pass
+    print('save_dic_to_file function') 
 
 
 # Aibek
@@ -88,7 +96,7 @@ def save_dic_to_file(dic, filename):
 # - input: dictionary - aynimalyga at beru kerek
 # - output: maximum length word   
 def find_longest_word(dict1): 
-    pass 
+    print('find_longest_word function') 
 
 
 # Test all functions here
@@ -96,5 +104,8 @@ if __name__ == "__main__":
    print("Testing module ...")
    
    content = data_loader('brown_short.txt')
-   print(get_word_counts(content))
-   print(len(content))
+   dict1 = get_word_counts(content)
+   print()  # dictionary uzyndygyn wigaru kerek
+   print(count_average(dict1))
+
+  
