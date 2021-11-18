@@ -52,7 +52,8 @@ class Person():
 # Student class
 class Student(Person):
   # 1 nemese 2 attribut kosu kerek
-  #
+  attr1 = ''
+  attr2 = 0
   # jana attributtrga getter/setter metodtar jasau
   # init, print_info - ozgeris jasau kerek
   # def print_info():
@@ -70,21 +71,21 @@ class Student(Person):
         self.attr1 = init_attr1 
         self.attr2 = init_attr2 
 
-   # Print Student info in format:
-   #    Name: name lastname
-   #    Age: age
-   #    Rost: rost
-   #    Attr1: attr1
-   #    Attr2: attr2
-   def print_info(self):
-       print("Name:", self.name, self.lastname)
-       print("Age:", self.age)
-       print("Rost:", self.rost)
-       # print attr1
-       # print attr2 
+  # Print Student info in format:
+  #    Name: name lastname
+  #    Age: age
+  #    Rost: rost
+  #    Attr1: attr1
+  #    Attr2: attr2
+  def print_info(self):
+      print("Name:", self.name, self.lastname)
+      print("Age:", self.age)
+      print("Rost:", self.rost)
+      # print attr1
+      # print attr2 
+
 
 # Teacher class
-
 class Teacher(Person):
   # 1 nemese 2 attribut kosu kerek
   #
@@ -94,17 +95,7 @@ class Teacher(Person):
   # super() arkyly  Person-nin manderin initsializatsiya jasau
   # def print_info():
   #    ..... + jana attributtardy da shygaru kerek
-
-  # Constructor
-  def __init__(self, init_name = "Aibek", \
-                      init_lastname = "Abeken", \
-                      init_age = 20, \
-                      init_rost = 170, \
-                      init_attr1 = "bir man attr1", \
-                      init_attr2 = "bir man attr2"):
-        super().__init__(init_name, init_lastname, init_age, init_rost)
-        self.attr1 = init_attr1 
-        self.attr2 = init_attr2 
+  pass
  
 if __name__ == "__main__":
    Aik = Person()
