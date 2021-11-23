@@ -1,0 +1,5 @@
+Define three classes - one parent class and two child classes.
+Person - parent class
+- attributes: name, lastname, age, rost
+- methods:
+   constructor __init__

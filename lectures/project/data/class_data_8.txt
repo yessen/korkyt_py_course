@@ -1,0 +1,8 @@
+Student,Johnson,Robert,21,170,80,100,90
+Student,Smith,Jack,20,180,85,98,85
+Student,Taylor,Mary,21,165,87,96,80
+Student,Weber,John,19,182,70,89,80
+Student,Huber,Tom,20,175,90,95,97
+Teacher,Manson,Harry,45,178,Mathematics,-,-
+Teacher,White,Susanne,38,167,-,History,-
+Teacher,Huffman,Daniel,40,172,-,-,Programming
