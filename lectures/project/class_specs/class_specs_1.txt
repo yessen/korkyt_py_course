@@ -1,0 +1,26 @@
+Parent class
+------------
+Person:
+- attributes: name, lastname, age, rost
+- methods:
+   1) constructor __init__
+   2) get/set methods
+   3) print_info  -- prints all attributes
+
+Child classes 
+-------------
+Student:
+- attributes: subject1_score, subject2_score, subject3_score
+- methods:
+   1) constructor __init__
+   2) get/set methods
+
+Teacher:
+- attributes: subject
+- methods:
+   1) constructor __init__
+   2) get/set methods
+
+Task:
+Convert and print the scores in letter format for each student
+

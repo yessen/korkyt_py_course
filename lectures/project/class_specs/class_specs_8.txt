@@ -1,5 +1,26 @@
-Define three classes - one parent class and two child classes.
-Person - parent class
+Parent class
+------------
+Person:
 - attributes: name, lastname, age, rost
 - methods:
-   constructor __init__
+   1) constructor __init__
+   2) get/set methods
+   3) print_info  -- prints all attributes
+
+Child classes 
+-------------
+Student:
+- attributes: subject1_score, subject2_score, subject3_score
+- methods:
+   1) constructor __init__
+   2) get/set methods
+
+Teacher:
+- attributes: subject
+- methods:
+   1) constructor __init__
+   2) get/set methods
+
+Task:
+Find and print the best student for each subject
+
