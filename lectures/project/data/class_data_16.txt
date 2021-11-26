@@ -1,0 +1,8 @@
+﻿Toyota,Highlander,2020,50000,15,10,7,8
+Toyota,Camry,2021,35000,20,19,21,23
+Mitsubishi,Outlander,2019,25000,14,12,17,15
+Mitsubishi,Pajero,2021,60000,10,9,8,11
+Honda,Pilot,2020,65000,6,8,7,3
+Honda,CRV,2018,30000,11,12,14,13
+Chevrolet,Cruze,2019,15000,18,20,15,12
+Chevrolet,Captiva,2021,25000,10,10,11,9

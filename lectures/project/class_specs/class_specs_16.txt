@@ -1,0 +1,20 @@
+Parent class
+------------
+Car:
+- attributes: brand, model, year
+- methods:
+   1) constructor __init__
+   2) get/set methods
+   3) print_info  -- prints all attributes
+
+Child class 
+-------------
+CarSales:
+- attributes: price, q1_quantity, q2_quantity, q3_quantity, q4_quantity
+- methods:
+   1) constructor __init__
+   2) get/set methods
+
+Task:
+Find and print the total income per year for each car.
+
