@@ -14,6 +14,7 @@ CarSales:
 - methods:
    1) constructor __init__
    2) get/set methods
+   3) print_info  -- prints all attributes
 
 Task:
 Find and print the total income per year for each car.
